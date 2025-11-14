@@ -1,1 +1,42 @@
-temp
+Readme explains the logic and gameplay flow: 
+- Game Initialization
+  - Initialize Score: Which is at Zero
+  - Game displays commands for the player
+     - up
+     - down
+     - left
+     - right
+     - jump
+     - help
+     - quit
+ - User inputs
+    - Valid
+       - The command is recognized
+       - Flow continues in the game
+    - Invalid
+       - Point is Deducted
+       - Ask the user for a valid input
+    - Help
+       - Shows the valid comands again
+    - Quit
+      - Exits the game
+- Movement System
+  - Movement Commands
+    - up
+    - down
+    - left
+    - right
+  - Jump
+    - Acts like a vertical movement but also uses the Prize and Trap system just like movement
+ - Prize and Trap System
+   - Player receives a reward
+   - Score increases
+ - Trap
+   - Player receives a penalty
+   - Score decreases
+   - Also Walking to wall cause your score to decrease
+ - Game Loop
+  - This cycle repeats until the player chooses Quit
+
+ 
+  
